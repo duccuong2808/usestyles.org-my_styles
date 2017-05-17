@@ -1,0 +1,20 @@
+/*
+Wunderlist Flat
+https://userstyles.org/styles/140221/wunderlist-flat
+*/
+
+@-moz-document domain(www.wunderlist.com) {
+  div,
+  span,
+  ul,
+  li,
+  a,
+  input,
+  textarea {
+    border-radius: 0px !important;
+  }
+  #fullscreen-note {
+    width: 600px;
+    border-radius: 0px;
+  }
+}
